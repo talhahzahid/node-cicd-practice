@@ -7,7 +7,7 @@ app.use (express.json ());
 app.get ('/api/health', (req, res) => {
   res.status (200).json ({
     success: true,
-    message: 'API is working',
+    message: 'API is running',
   });
 });
 
